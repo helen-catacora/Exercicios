@@ -1,11 +1,12 @@
 import React from 'react'
+import "./style.css"
 
 function Description(props) {
     const ejercicios = props.ejercicios
   return (
-    <div>
-        <h2>{ejercicios[0].title}</h2>
-        <p>{ejercicios[0].repeticion}</p>
+    <div className='description'>
+        <h2>{ejercicios.title}</h2>
+        <p>{ejercicios.repeticion}</p>
     </div>
   )
 }

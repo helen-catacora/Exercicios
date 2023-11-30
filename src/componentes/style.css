@@ -1,0 +1,46 @@
+.Organismo{
+    
+}
+
+.card{
+    display: flex;
+    width: 364px;
+    height: 83px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #29292E;
+    color: white;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.card div {
+    display: flex;
+}
+
+.card div img{
+    margin: 7px;
+}
+
+.description{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.description h2{
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+.description p{
+    font-size: 14px;
+    line-height: 22.4px;
+}
+
+i{
+    margin: 5px;
+}

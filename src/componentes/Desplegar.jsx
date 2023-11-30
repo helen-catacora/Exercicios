@@ -1,12 +1,20 @@
 import React from 'react'
 import Card from './Card'
 import { ejercicios } from '../assets/EjerciciosAPI'
+import "./style.css"
 
 function Desplegar() {
   return (
     <>
     <section className='Organismos'>
-        <Card ejercicios = {ejercicios} />
+        {
+            ejercicios.map(ejercicio=>{
+                return(
+                    <Card ejercicios={ejercicio}/>
+                )
+            })
+        }
+        
     </section>
     </>
   )
