@@ -6,7 +6,7 @@ import "./style.css"
 function Desplegar() {
   return (
     <>
-    <section className='Organismos'>
+    <section className='Organismo'>
         {
             ejercicios.map(ejercicio=>{
                 return(
